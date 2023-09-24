@@ -18,6 +18,19 @@ input {
     padding: 8px 40px 8px 20px;
 }
 
+.banner-bg {
+    background: linear-gradient(180deg, #121212 -14.42%, rgba(18, 18, 18, 0.00) 100%);
+}
+
+
+
+.primary-btn {
+    background-color: #F85559;
+    padding: 20px 30px;
+    border-radius: 8px;
+    border: 0;
+    color: #fff;
+}
 
 
 @media screen and (max-width: 768px) {

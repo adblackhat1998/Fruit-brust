@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Blast</title>
+    <!-- favicon  -->
+    <link rel="shortcut icon" href="images/fruit1.png" type="image/x-icon">
+    <!-- tailwind  & daisu ui cdn link  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.7/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwsome kit link  -->
+    <script src="https://kit.fontawesome.com/e9415fb9ec.js" crossorigin="anonymous"></script>
+
+    <!-- lato font-family  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="p-4">
+        <!-- navbar section  -->
+        <nav class="container mx-auto bg-[#F85559] rounded-[600px]">
+            <div class="navbar text-[#FFF]">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </label>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-[#F85559] rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a href="">Shop</a></li>
+                            <li><a href="">All Fruits</a></li>
+                            <li>
+                                <form action="">
+                                    <input type="text" placeholder="Search Here">
+                                    <button type="submit"><i class="fa-solid fa-magnifying-glass text-gray-500"
+                                            aria-hidden="true"></i></button>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost normal-case text-xl content-hide">
+                        <img class="h-10" src="images/logo.png" alt="">
+                        <span class="text-3xl font-bold"> Fruid Brust</span>
+                    </a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-xl">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a href="">Shop </a></li>
+                        <li><a href="">All Fruits</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <form action="" class="content-hide">
+                        <input type="text" placeholder="Search Here">
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass text-gray-500"
+                                aria-hidden="true"></i></button>
+                    </form>
+
+                    <a class="btn btn-ghost normal-case text-xl  md:hidden">
+                        <img class="h-10" src="images/logo.png" alt="">
+                        <span class="text-3xl font-bold"> Fruid Brust</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+</body>
+
+</html>

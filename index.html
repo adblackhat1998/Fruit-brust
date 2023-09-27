@@ -198,121 +198,128 @@
             </div>
         </section>
         <!-- products card -->
-        <section class="max-w-[1440px] mx-auto p-5 mt-10 md:flex md:items-center md:space-x-5 space-y-5  ">
-            <!-- item 1 -->
-            <div class="product space-y-9 py-8">
-                <img class="mx-auto " src="images/fruit1.png" alt="">
-                <p class="text-[#121212] text-2xl font-bold">12.90$ - 18.85$</p>
-                <p>Red Grapes</p>
+        <section class="max-w-[1440px] mx-auto p-5 mt-10 ">
+            <div class="md:flex md:items-center md:space-x-5 space-y-5">
+                <!-- item 1 -->
+                <div class="product space-y-9 py-8">
+                    <img class="mx-auto " src="images/fruit1.png" alt="">
+                    <p class="text-[#121212] text-2xl font-bold">12.90$ - 18.85$</p>
+                    <p>Red Grapes</p>
 
-                <img class="mx-auto" src="images/Group 24.svg" alt="">
+                    <img class="mx-auto" src="images/Group 24.svg" alt="">
 
-                <!-- modal -->
-                <!-- Open the modal using ID.showModal() method -->
-                <button class=" text-[#F85559] text-xl" onclick="my_modal_1.showModal()">Details</button>
-                <dialog id="my_modal_1" class="modal">
-                    <div class="modal-box">
-                        <img class="mx-auto" src="images/fruit1.png" alt="">
-                        <h3 class="font-bold text-lg">Red Grapes</h3>
-                        <p class="py-4">Professional employees are there for you to pick the most amazing and fresh
-                            fruits.</p>
-                        <div class="modal-action">
-                            <form method="dialog" class="space-x-2 mx-auto">
-                                <!-- if there is a button in form, it will close the modal -->
-                                <button class="btn btn-outline btn-error">Close</button>
-                                <button class="btn btn-error text-[#FFF]">Buy Now</button>
-                            </form>
+                    <!-- modal -->
+                    <!-- Open the modal using ID.showModal() method -->
+                    <button class=" text-[#F85559] text-xl" onclick="my_modal_1.showModal()">Details</button>
+                    <dialog id="my_modal_1" class="modal">
+                        <div class="modal-box">
+                            <img class="mx-auto" src="images/fruit1.png" alt="">
+                            <h3 class="font-bold text-lg">Red Grapes</h3>
+                            <p class="py-4">Professional employees are there for you to pick the most amazing and fresh
+                                fruits.</p>
+                            <div class="modal-action">
+                                <form method="dialog" class="space-x-2 mx-auto">
+                                    <!-- if there is a button in form, it will close the modal -->
+                                    <button class="btn btn-outline btn-error">Close</button>
+                                    <button class="btn btn-error text-[#FFF]">Buy Now</button>
+                                </form>
+                            </div>
                         </div>
-                    </div>
-                </dialog>
+                    </dialog>
 
-            </div>
-            <!-- items 2  -->
-
-            <div class="product space-y-9 py-8">
-                <img class="mx-auto" src="images/fruit2.png" alt="">
-                <p class="text-[#121212] text-2xl font-bold">12.90$ - 18.85$</p>
-                <p>Sweet Orange</p>
-
-                <img class="mx-auto" src="images/Group 24.svg" alt="">
-                <!-- modal -->
-                <!-- You can open the modal using ID.showModal() method -->
-                <button class="text-[#F85559] text-xl" onclick="my_modal_3.showModal()">Details</button>
-                <dialog id="my_modal_3" class="modal">
-                    <div class="modal-box">
-                        <img class="mx-auto" src="images/fruit2.png" alt="">
-                        <h3 class="font-bold text-lg">Sweet Orange</h3>
-                        <p class="py-4">Professional employees are there for you to pick the most amazing and fresh
-                            fruits.</p>
-                        <div class="modal-action">
-                            <form method="dialog" class="space-x-2 mx-auto">
-                                <!-- if there is a button in form, it will close the modal -->
-                                <button class="btn btn-outline btn-error">Close</button>
-                                <button class="btn btn-error text-[#FFF]">Buy Now</button>
-                            </form>
-                        </div>
-                </dialog>
-
-            </div>
-            <!-- items 3  -->
-            <div class="product space-y-9 py-8">
-                <img class="mx-auto" src="images/fruit3.png" alt="">
-                <p class="text-[#121212] text-2xl font-bold">12.90$ - 18.85$</p>
-                <p>Mango</p>
-
-                <img class="mx-auto" src="images/Group 24.svg" alt="">
-
-                <!-- modal  -->
-                <!-- Open the modal using ID.showModal() method -->
-                <button class="text-[#F85559] text-xl" onclick="my_modal_5.showModal()">Details</button>
-                <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
-                    <div class="modal-box">
-                        <img class="mx-auto" src="images/fruit3.png" alt="">
-                        <h3 class="font-bold text-lg">Mango</h3>
-                        <p class="py-4">Professional employees are there for you to pick the most amazing and fresh
-                            fruits.</p>
-                        <div class="modal-action">
-                            <form method="dialog" class="space-x-2 mx-auto">
-                                <!-- if there is a button in form, it will close the modal -->
-                                <button class="btn btn-outline btn-error">Close</button>
-                                <button class="btn btn-error text-[#FFF]">Buy Now</button>
-                            </form>
-                        </div>
-                    </div>
-                </dialog>
-
-            </div>
-            <!-- items 4 -->
-            <div class="product space-y-9 py-8">
-                <img class="mx-auto" src="images/fruit4.png" alt="">
-                <p class="text-[#121212] text-2xl font-bold">12.90$ - 18.85$</p>
-                <p>Strawberry
-                </p>
-
-                <img class="mx-auto" src="images/Group 24.svg" alt="">
-
-                <!-- modal  -->
-                <!-- The button to open modal -->
-                <div>
-                    <a href="#my_modal_8" class="text-[#F85559] text-xl">Details</a>
                 </div>
-                <!-- Put this part before  tag -->
-                <div class="modal" id="my_modal_8">
-                    <div class="modal-box">
-                        <img class="mx-auto" src="images/fruit4.png" alt="">
-                        <h3 class="font-bold text-lg">Strawberry
+                <!-- items 2  -->
 
-                        </h3>
-                        <p class="py-4">Professional employees are there for you to pick the most amazing and fresh
-                            fruits.</p>
-                        <div class="modal-action">
-                            <a href="#" class="btn btn-outline btn-error">Colse</a>
-                            <a href="#" class="btn btn-error text-[#FFF]">Buy Now</a>
+                <div class="product space-y-9 py-8">
+                    <img class="mx-auto" src="images/fruit2.png" alt="">
+                    <p class="text-[#121212] text-2xl font-bold">12.90$ - 18.85$</p>
+                    <p>Sweet Orange</p>
+
+                    <img class="mx-auto" src="images/Group 24.svg" alt="">
+                    <!-- modal -->
+                    <!-- You can open the modal using ID.showModal() method -->
+                    <button class="text-[#F85559] text-xl" onclick="my_modal_3.showModal()">Details</button>
+                    <dialog id="my_modal_3" class="modal">
+                        <div class="modal-box">
+                            <img class="mx-auto" src="images/fruit2.png" alt="">
+                            <h3 class="font-bold text-lg">Sweet Orange</h3>
+                            <p class="py-4">Professional employees are there for you to pick the most amazing and fresh
+                                fruits.</p>
+                            <div class="modal-action">
+                                <form method="dialog" class="space-x-2 mx-auto">
+                                    <!-- if there is a button in form, it will close the modal -->
+                                    <button class="btn btn-outline btn-error">Close</button>
+                                    <button class="btn btn-error text-[#FFF]">Buy Now</button>
+                                </form>
+                            </div>
+                    </dialog>
+
+                </div>
+                <!-- items 3  -->
+                <div class="product space-y-9 py-8">
+                    <img class="mx-auto" src="images/fruit3.png" alt="">
+                    <p class="text-[#121212] text-2xl font-bold">12.90$ - 18.85$</p>
+                    <p>Mango</p>
+
+                    <img class="mx-auto" src="images/Group 24.svg" alt="">
+
+                    <!-- modal  -->
+                    <!-- Open the modal using ID.showModal() method -->
+                    <button class="text-[#F85559] text-xl" onclick="my_modal_5.showModal()">Details</button>
+                    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                        <div class="modal-box">
+                            <img class="mx-auto" src="images/fruit3.png" alt="">
+                            <h3 class="font-bold text-lg">Mango</h3>
+                            <p class="py-4">Professional employees are there for you to pick the most amazing and fresh
+                                fruits.</p>
+                            <div class="modal-action">
+                                <form method="dialog" class="space-x-2 mx-auto">
+                                    <!-- if there is a button in form, it will close the modal -->
+                                    <button class="btn btn-outline btn-error">Close</button>
+                                    <button class="btn btn-error text-[#FFF]">Buy Now</button>
+                                </form>
+                            </div>
+                        </div>
+                    </dialog>
+
+                </div>
+                <!-- items 4 -->
+                <div class="product space-y-9 py-8">
+                    <img class="mx-auto" src="images/fruit4.png" alt="">
+                    <p class="text-[#121212] text-2xl font-bold">12.90$ - 18.85$</p>
+                    <p>Strawberry
+                    </p>
+
+                    <img class="mx-auto" src="images/Group 24.svg" alt="">
+
+                    <!-- modal  -->
+                    <!-- The button to open modal -->
+                    <div>
+                        <a href="#my_modal_8" class="text-[#F85559] text-xl">Details</a>
+                    </div>
+                    <!-- Put this part before  tag -->
+                    <div class="modal" id="my_modal_8">
+                        <div class="modal-box">
+                            <img class="mx-auto" src="images/fruit4.png" alt="">
+                            <h3 class="font-bold text-lg">Strawberry
+
+                            </h3>
+                            <p class="py-4">Professional employees are there for you to pick the most amazing and fresh
+                                fruits.</p>
+                            <div class="modal-action">
+                                <a href="#" class="btn btn-outline btn-error">Colse</a>
+                                <a href="#" class="btn btn-error text-[#FFF]">Buy Now</a>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div class="mt-10 text-center">
+                <button class="primary-btn">Show All</button>
             </div>
         </section>
+
     </main>
 
 </body>

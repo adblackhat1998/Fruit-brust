@@ -23,6 +23,15 @@ input {
     background: linear-gradient(180deg, #121212 -14.42%, rgba(18, 18, 18, 0.00) 100%);
 }
 
+.product {
+    text-align: center;
+    width: 342px;
+    height: 470px;
+    border-radius: 8px;
+    border: 1px solid rgba(18, 18, 18, 0.10);
+    background: #FFF;
+
+}
 
 
 .primary-btn {

@@ -49,6 +49,26 @@ input {
     color: #fff;
 }
 
+.hr-line {
+    background: rgba(18, 18, 18, 0.80);
+    width: 100px;
+    height: 1px;
+}
+
+.icon-bg {
+    color: gray;
+    text-align: center;
+    background: rgba(18, 18, 18, 0.10);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+
+
+
+
+/* responsive  */
 
 @media screen and (max-width: 768px) {
     .content-hide {

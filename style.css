@@ -70,6 +70,7 @@ input {
 
 /* responsive  */
 
+
 @media screen and (max-width: 768px) {
     .content-hide {
         display: none;

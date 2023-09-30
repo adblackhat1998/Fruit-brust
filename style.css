@@ -23,6 +23,12 @@ input {
     background: linear-gradient(180deg, #121212 -14.42%, rgba(18, 18, 18, 0.00) 100%);
 }
 
+.fruits-container {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 8px 60px 0px rgba(0, 0, 0, 0.05);
+}
+
 .product {
     text-align: center;
     width: 342px;
@@ -69,10 +75,19 @@ input {
 
 
 /* responsive  */
+@media screen and (max-width:576px) {
+    .fruits-container {
+        display: none;
+    }
+}
 
 
 @media screen and (max-width: 768px) {
     .content-hide {
+        display: none;
+    }
+
+    .fruits-container {
         display: none;
     }
 }
